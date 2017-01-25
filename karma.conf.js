@@ -15,10 +15,12 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'bower_components\angular\angular.min.js',
-      'bower_components\angular-mocks\angular-mocks.js',
-      'src/**/*.js',
-      'spec/**/*.js'
+      'bower_components/angular/angular.min.js',
+      'bower_components/angular-mocks/angular-mocks.js',
+      'app/app.js',
+      'app/controllers/mainController.js',
+      'app/services/omdb.js',
+      'spec/omdb/service.spec.js',
     ],
 
     // list of files to exclude
